@@ -1,0 +1,78 @@
+@font-face {
+  font-family: comfortaa;
+  src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+  font-family: poiret;
+  src: url(../fonts/Poiret_One/PoiretOne-Regular.ttf);
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#nav-container {
+  width: 80%;
+  display: block;
+  margin: 0% auto 2% auto;
+  padding: 3% 2% 8% 2%;
+  /*border: 1px solid black;*/
+  border-bottom: 4px double #666;
+}
+
+#img-logo {
+  display: block;
+  width: 24%;
+  margin: auto;
+}
+
+.child-hex {
+  width: 47%;
+  display: inline-block;
+  margin: auto;
+  padding: 0 1%;
+  /*border: 2px solid red;*/
+}
+
+#hexcontain {
+  /*border: 1px dotted blue;*/
+  display: block;
+  margin: -5% auto;
+  width: 50%;
+}
+
+#contact-bar {
+  background-color: #151515;
+  color: #fff;
+  margin: 4% 0 0 0;
+  padding: 2%;
+}
+
+.view-container {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+
+
+/*////////////projects.html//////////*/
+.project {
+  margin: 2% auto;
+}
+
+/*#view {
+  width: 90%;
+  padding: 2%;
+  display: block;
+  margin: auto;
+  background-color: #f2f2f2;
+  border-radius: 0px 0px 10px 10px;
+}*/
+
+.p-intro {
+  font-family: comfortaa;
+  text-align: center;
+  font-size: 1em;
+}
