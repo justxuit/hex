@@ -8,45 +8,15 @@
   src: url(../fonts/Poiret_One/PoiretOne-Regular.ttf);
 }
 
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: sans-serif;
-}
-
-#nav-container {
-  width: 80%;
-  display: block;
-  margin: 0% auto 2% auto;
-  padding: 3% 2% 8% 2%;
-  /*border: 1px solid black;*/
-  border-bottom: 4px double #666;
-}
-
-#img-logo {
-  display: block;
-  width: 24%;
-  margin: auto;
-}
-
-.child-hex {
-  width: 47%;
-  display: inline-block;
-  margin: auto;
-  padding: 0 1%;
-  /*border: 2px solid red;*/
-}
-
-#hexcontain {
-  /*border: 1px dotted blue;*/
-  display: block;
-  margin: -5% auto;
-  width: 50%;
-}
-
-#contact-bar {
-  background-color: #151515;
-  color: #fff;
-  margin: 4% 0 0 0;
-  padding: 2%;
 }
 
 .view-container {
@@ -57,22 +27,70 @@ body {
 
 
 
+
+/*///////////splash.html////////*/
+#nav-contain {
+  width: 45%;
+  margin: 1% auto 2% auto;
+  display: block;
+  border-bottom: 4px double black;
+}
+
+#hex-contain1 {
+  right: -18.5%;
+  position: relative;
+}
+
+#hex-contain2 {
+  margin: -12% auto 3% auto;
+  left: -3%;
+  position: relative;
+}
+
+.hex {
+  width: 40%;
+  display: inline-block;
+  margin: 1%;
+}
+
+#contact-bar {
+  width: 20%;
+  display: block;
+  margin: auto;
+  color: #fff;
+  padding: 4px;
+  text-align: center;
+}
+
+.footer-icon {
+  width: 30px;
+  display: inline-block;
+  margin: 0 5%;
+}
+
+
+
 /*////////////projects.html//////////*/
 .project {
   margin: 2% auto;
 }
 
-/*#view {
-  width: 90%;
-  padding: 2%;
-  display: block;
-  margin: auto;
-  background-color: #f2f2f2;
-  border-radius: 0px 0px 10px 10px;
-}*/
-
 .p-intro {
   font-family: comfortaa;
   text-align: center;
   font-size: 1em;
+}
+
+
+
+/*/////////////media queries///////*/
+@media (max-width: 750px) {
+	 #nav-contain {
+		 width: 90%;
+	 }
+
+   #contact-bar {
+     width: 60%;
+     /*position: fixed;*/
+   }
 }
