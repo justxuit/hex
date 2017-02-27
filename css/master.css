@@ -25,7 +25,7 @@ body {
 }
 
 .view-container {
-  width: 50%;
+  width: 45%;
   display: block;
   margin: 2% auto;
   font-family: source-sans;
@@ -78,14 +78,24 @@ body {
 
 /*/////////navbar style////////////*/
 .nav-contain {
-  width: 80%;
+  width: 45%;
   display: block;
-  margin: auto;
-  background-color: gray;
+  margin: 1% auto;
+  text-align: center;
+  border-bottom: 4px double black;
 }
 
+.navhex-sm {
+  display: inline;
+  width: 15%;
+  margin: 0 1% 4% 1%;
+}
 
-
+.navhex-big {
+  display: inline;
+  width: 20%;
+  margin: 0 1% 4% 1%;
+}
 
 
 
