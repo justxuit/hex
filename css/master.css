@@ -28,6 +28,7 @@ body {
   width: 50%;
   display: block;
   margin: 2% auto;
+  font-family: source-sans;
 }
 
 
@@ -78,7 +79,7 @@ body {
 /*/////////navbar style////////////*/
 .nav-contain {
   width: 80%;
-  display: inline-block;
+  display: block;
   margin: auto;
   background-color: gray;
 }
@@ -99,7 +100,6 @@ body {
   padding: 2%;
   width: 50%;
   display: inline;
-  font-family: source-sans;
   font-size: 1em;
   line-height: 150%;
 }
@@ -107,15 +107,29 @@ body {
 
 
 /*////////////projects.html//////////*/
+#work-blurb {
+  margin: 0 auto 5% auto;
+}
+
 .project {
-  margin: 2% auto;
+  margin: 2% auto 5% auto;
+}
+
+.project-img {
+  width: 40%;
+  opacity: 0.67;
+}
+
+.project-img:hover {
+  opacity: 1;
+  transition-duration: 0.5s;
 }
 
 
 
 /*/////////////media queries///////*/
 @media (max-width: 750px) {
-	 #nav-contain {
+	 #nav-contain-splash {
 		 width: 90%;
 	 }
 
